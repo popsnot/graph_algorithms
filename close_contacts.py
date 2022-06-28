@@ -1,3 +1,6 @@
+import collections
+from math import inf
+
 def recursive_dfs(output, vertex, discovered, adjacent):
     """Recursive implementation of Depth First Search algorithm.
        Author: Luka Foy
